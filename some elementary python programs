@@ -1,0 +1,643 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPlTfSfEvSGj75GSKLr0Ani",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Neetagithub/sparkstreaming/blob/master/some%20elementary%20python%20programs\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FoU8OYCm0-43",
+        "outputId": "7081bdf2-663b-4d2d-8614-fcd53c3e4ed6"
+      },
+      "source": [
+        "print('Neeta')\n"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Neeta\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FoVQkclW1hIq",
+        "outputId": "08c4713a-0669-43e3-bf6d-75bfcc7a845c"
+      },
+      "source": [
+        "print('Neeta a new one')"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Neeta a new one\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "C1YvdZlN1otz"
+      },
+      "source": [
+        "This was print statement\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tAejbSkb1s1V",
+        "outputId": "6fc66db7-81ce-4739-bb30-57f17c804f40"
+      },
+      "source": [
+        "a=10\n",
+        "b=a+20\n",
+        "c=a+40\n",
+        "print(a,'\\n',b,c)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "10 \n",
+            " 30 50\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XelSI14u3EID",
+        "outputId": "c354cef8-eb5f-4722-cca2-30f1fe6b1692"
+      },
+      "source": [
+        "print"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<function print>"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 69
+        },
+        "id": "sTUijq5I3Ga9",
+        "outputId": "6847783f-1d12-47d4-b3bd-f68fdd0ec489"
+      },
+      "source": [
+        "print('Enter A','a=')\n",
+        "input(a)"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter A a=\n",
+            "10100\n"
+          ],
+          "name": "stdout"
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'100'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yGXmzRfn3yLp",
+        "outputId": "7bb9526d-f7dc-47cf-8d1c-20a3a3096292"
+      },
+      "source": [
+        "print(5)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GY4HLMJt35SK",
+        "outputId": "2d713598-6851-4f77-98ee-4f0258f38c90"
+      },
+      "source": [
+        "print(3.1452)"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "3.1452\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_JXeUnKV4Eia"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2SasCWH84wW-"
+      },
+      "source": [
+        "Tried variables also. \n",
+        "Now Input the variable and print it"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7CMwkDho413w",
+        "outputId": "50c9e644-aa8f-404c-d504-f8082c617d77"
+      },
+      "source": [
+        "x=5\n",
+        "X=20\n",
+        "print(x,X)"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "5 20\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X-2BQLla5BeT",
+        "outputId": "ebfb385f-9884-4aa1-c574-f16e201cb2ba"
+      },
+      "source": [
+        "count = 0\n",
+        "Count = 10\n",
+        "print(count,Count)\n"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "0 10\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oXkjZzlY5f5K",
+        "outputId": "f9939958-12ed-4f9e-9b1b-312b3aa96ccf"
+      },
+      "source": [
+        "y=x+X\n",
+        "print(y)\n",
+        "z='4'+'3'\n",
+        "Z=4+3\n",
+        "print(type(z))\n",
+        "print(type(Z))\n",
+        "print('The type is z is', type(z))\n",
+        "print('The concatination of z is' + str(z))\n",
+        "print('The addition value of z is' + str(Z))\n",
+        "\n",
+        "print(z)\n",
+        "print(Z)\n",
+        " "
+      ],
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "25\n",
+            "<class 'str'>\n",
+            "<class 'int'>\n",
+            "The type is z is <class 'str'>\n",
+            "The concatination of z is43\n",
+            "The addition value of z is7\n",
+            "43\n",
+            "7\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "jKEbQy4L9Ig_"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "qSmFge7GBnyB"
+      },
+      "source": [
+        "Converting types and printing\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RWRRZe8KBtOK",
+        "outputId": "a49ac6c0-b31c-42ed-a957-2ec72d6b1079"
+      },
+      "source": [
+        "age= 45\n",
+        "print(age)\n",
+        "statement = 'My age is' # concatinating strings\n",
+        "#myFirstName is camel case\n",
+        "#MyFirstName is Pascal case\n",
+        "#my_first_name is snake case\n",
+        "result = statement + ' '+str(age)\n",
+        "print(result)\n"
+      ],
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "45\n",
+            "My age is 45\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qsS0rrjoCcwg"
+      },
+      "source": [
+        "# what are the problem in variable name?\n",
+        "# 2name\n",
+        "# @ name\n",
+        "#"
+      ],
+      "execution_count": 30,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_q4h0y_lEGVC",
+        "outputId": "8bd03d8a-9f60-4eac-ef0e-3b7a74b0a855"
+      },
+      "source": [
+        "x,y,z = 30,45,60\n",
+        "print(x,y,z)\n"
+      ],
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "30 45 60\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2JDFdw-UF_XB"
+      },
+      "source": [
+        "BODMAS starting from left"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TAkTH7sdETLX",
+        "outputId": "b10ac8ff-6deb-4e39-fb29-949afa582a65"
+      },
+      "source": [
+        "x= 10+ 45/15\n",
+        "y= 10*10 + 45/15\n",
+        "z= 10*10 + 45/15 + 10*12\n",
+        "a= 10 * (10+45)/(15+10)*12  # redefine priotity\n",
+        "\n",
+        "print(x,y,z,a)"
+      ],
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "13.0 103.0 223.0 264.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "vOY5Z6E2Gu_a"
+      },
+      "source": [
+        "if else statements\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5pcOeyWmGy_W",
+        "outputId": "abf36ed2-f4f3-4f2b-b0da-23531871db86"
+      },
+      "source": [
+        "a=95\n",
+        "b=65\n",
+        "if a>b:\n",
+        "  print('Larger value is ' + str(a))"
+      ],
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Larger value is 95\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4JyDPluVFpJk",
+        "outputId": "8b39133b-853f-475b-a6cd-174cdc49d19f"
+      },
+      "source": [
+        "a=95\n",
+        "b=65\n",
+        "if (a>b):\n",
+        "  print('Larger value is ' + str(a))"
+      ],
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Larger value is 95\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dEFNiudKJib5",
+        "outputId": "5c86bdeb-e7f3-496e-e317-e85a59ee2229"
+      },
+      "source": [
+        "count = input()\n",
+        "print(count) # print only prints the string value. Let us repeat it.\n",
+        "count = float(input())\n",
+        "print(count) # print only prints the string value\n",
+        "passing_marks = 30\n",
+        "if(count>passing_marks):\n",
+        "  print('Congratulations on passing')\n",
+        "else:\n",
+        "    print('Better Luck next time')"
+      ],
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "20\n",
+            "20\n",
+            "20\n",
+            "20.0\n",
+            "Better Luck next time\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qhHWTa3OJ55z",
+        "outputId": "2270a72f-07a5-45bd-b965-0d8fbded8e63"
+      },
+      "source": [
+        "marks = float(input('Enter Marks '))\n",
+        "print('marks '+str(marks)) # print only prints the string value\n",
+        "passing_marks = 30\n",
+        "if(passing_marks<marks):\n",
+        "  print('Congratulations on passing')\n",
+        "elif(passing_marks>marks):\n",
+        "    print('Better Luck next time')\n",
+        "else:\n",
+        "  print('You have just passed') # this is case or whatif"
+      ],
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter Marks20\n",
+            "marks 20.0\n",
+            "Better Luck next time\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AbuZCESqMeL9",
+        "outputId": "93dadb9e-a488-46f2-c2be-9049668e17df"
+      },
+      "source": [
+        "a = float(input('Enter any Number '))\n",
+        "if(a % 2 == 0): print('This is an even number ' + str(a))\n",
+        "else: print('This is an odd number ' + str(a))"
+      ],
+      "execution_count": 57,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter any Number 3\n",
+            "This is an odd number3.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4PLxSDMVOaOe"
+      },
+      "source": [
+        "Python Loops\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "wqnTA_EWNXGm"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
